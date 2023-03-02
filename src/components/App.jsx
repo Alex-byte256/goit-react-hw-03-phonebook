@@ -20,7 +20,6 @@ class  App extends Component{
     if(parsedContacts){
       this.setState({contacts: parsedContacts});
     }
-
   }
 
   componentDidUpdate(prevProps, prevState) {
